@@ -17,7 +17,8 @@ menggunakan 32bit.
 silahkan buka **CMD** atau **PowerShell**, kemudian ketik perintah.
 "git -- version".
 
-![Gambar 1](https://user-images.githubusercontent.com/57052298/68079901-fdfc6d80-fe23-11e9-8e55-ab422dbac6a6.png)
+![Gambar 1](https://user-images.githubusercontent.com/57052298/68081099-ee3c5380-fe3a-11e9-86aa-405e7f191cc2.png)
+
 
 # Menambahkan Global Config
 * Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi
@@ -28,7 +29,7 @@ repository.
 kegagalan saat menjalankan perintah git commit
 * Config Global Repository
 
-![Gambar 2](https://user-images.githubusercontent.com/57052298/68079978-32245e00-fe25-11e9-89b3-a66a0b954d5c.png)
+![Gambar 2](https://user-images.githubusercontent.com/57052298/68081114-3a879380-fe3b-11e9-9776-7d3a047c5543.png)
 
 # Perintah Dasar Git
 * git init, perintah untuk membuat repository local
@@ -36,8 +37,7 @@ kegagalan saat menjalankan perintah git commit
 pada staging sebelum proses commit.
 * git commit, perintah untuk menyimpan perubahan kedalam database git.
 * git push -u origin master, perintah untuk mengirim perubahan pada
- 
- # repository local menuju server repository.
+* repository local menuju server repository.
 * git clone [url], perintah untuk membuat working directory yang diambil dari
 repositry sever.
 * git remote add origin [url], perintah untuk menambahkan remote
@@ -56,7 +56,7 @@ masuk kedalam direktori tersebut dengan perintah cd (change
 directory)
 * direktory aktif menjadi: d:\labs_pemrograman1\latihan1
 
-![Gambar 3](https://user-images.githubusercontent.com/57052298/68079992-74e63600-fe25-11e9-956e-2b7a7deb5296.png)
+![Gambar 3](https://user-images.githubusercontent.com/57052298/68081160-ee891e80-fe3b-11e9-9ed6-44a483f2f3ac.png)
 
 # Membuat Reposiory Local
 * Jalankan perintah git init, untuk membuat repository local.
@@ -64,26 +64,31 @@ directory)
 direktori hidden dengan nama .git
 * Pada direktori tersebut, semua perubahan pada working directory
 akan disimpan.
-$ git init
+
+![Gambar 4](https://user-images.githubusercontent.com/57052298/68081171-36a84100-fe3c-11e9-95b9-dc427afbd807.png)
 
 # Menambahkan File baru pada repository
 * Untuk membuat file dapat menggunakan text editor, lalu menyimpan
 filenya pada direktori aktif (repository)
 * disini kita akan coba buat satu file bernama README.md (text file)
 * File README.md berhasil dibuat.
-$ echo “#Latihan 1” >> README.md
+
+![Gambar 5](https://user-images.githubusercontent.com/57052298/68081178-648d8580-fe3c-11e9-86d1-fd73c046112e.png)
 
 # Menambahkan File baru pada repository
 * Untuk menambahkan file yang baru saja dibuat tersebut gunakan
 perintah git add.
 * File README.md berhasil ditambahkan.
-$ git add README.md
+
+![Gambar 6](https://user-images.githubusercontent.com/57052298/68081196-a9b1b780-fe3c-11e9-9a4d-6d96db1397ff.png)
 
 # Commit (Menyimpan perubahan ke database)
 * Untuk menyimpan perubahan yang ada kedalam database repository
 local, gunakan perintah git commit -m “komentar commit”
 * Perubahan berhasil disimpan.
-$ git commit -m “File pertama saya”
+
+![Gambar 7](https://user-images.githubusercontent.com/57052298/68081208-dcf44680-fe3c-11e9-985d-6af354b6635d.png)
+”
 
 # Membuat repository server
 * Server reopsitory yang akan kita gunakan adalah http://github.com
@@ -94,6 +99,9 @@ $ git commit -m “File pertama saya”
 # Membuat repository server
 * Isi nama repositorynya, misal: labpy1.
 * lalu klik tombol Create repository
+
+![Gambar 8](https://user-images.githubusercontent.com/57052298/68081236-6c99f500-fe3d-11e9-8550-d1499a50105c.png)
+
 # Menambahkan Remote Repository
 * Remote Repository merupakan repository server yang akan
 digunakan untuk menyimpan setiap perubahan pada local repository,
@@ -107,7 +115,8 @@ $ git remote add origin https://github.com/abuazzam/labpy1.git
 perintah git push.
 * Perintah ini akan meminta memasukkan username dan password
 pada akun github.com
-$ git push -u origin master
+
+![Tanpa jud l](https://user-images.githubusercontent.com/57052298/68081274-df0ad500-fe3d-11e9-8f62-6b0df2263e30.png)
 
 # Melihat hasilnya pada server repository
 * Buka laman github.com,
@@ -115,6 +124,8 @@ arahkan pada repositorinya.
 * Maka perubahan akan
 terlihat pada laman
 tersebut.
+
+![Tanpa judul](https://user-images.githubusercontent.com/57052298/68081276-03ff4800-fe3e-11e9-8293-872d7d439a6f.png)
 
 # Clone Repository
 * Clone repository, pada dasarnya adalah meng-copy repository server
