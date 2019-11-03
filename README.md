@@ -17,6 +17,7 @@ menggunakan 32bit.
 silahkan buka **CMD** atau **PowerShell**, kemudian ketik perintah.
 "git -- version".
 
+![Gambar 1](https://user-images.githubusercontent.com/57052298/68079901-fdfc6d80-fe23-11e9-8e55-ab422dbac6a6.png)
 
 # Menambahkan Global Config
 * Pada saat pertama kali menggunakan git, perlu dilakukan konfigurasi
@@ -26,6 +27,8 @@ repository.
 * apabila belum dilakukan konfigurasi, akan mengakibatkan terjadi
 kegagalan saat menjalankan perintah git commit
 * Config Global Repository
+
+![Gambar 2](https://user-images.githubusercontent.com/57052298/68079978-32245e00-fe25-11e9-89b3-a66a0b954d5c.png)
 
 # Perintah Dasar Git
 * git init, perintah untuk membuat repository local
@@ -52,8 +55,9 @@ sehingga muncul git bash commad
 masuk kedalam direktori tersebut dengan perintah cd (change
 directory)
 * direktory aktif menjadi: d:\labs_pemrograman1\latihan1
-$ mkdir latihan1
-$ cd latihan1
+
+![Gambar 3](https://user-images.githubusercontent.com/57052298/68079992-74e63600-fe25-11e9-956e-2b7a7deb5296.png)
+
 # Membuat Reposiory Local
 * Jalankan perintah git init, untuk membuat repository local.
 * Repository baru berhasil di inisialisasi, dengan terbentuknya satu
